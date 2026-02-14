@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucknow Plot Finder</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f4f6f9;
+}
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header h1{
+    margin:0;
+    font-size:22px;
+}
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:14px;
+}
+.hero{
+    background:linear-gradient(rgba(15,23,42,0.8),rgba(15,23,42,0.8)),url('https://images.unsplash.com/photo-1560518883-ce09059eeffa');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+.hero h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+.hero p{
+    font-size:16px;
+    margin-bottom:30px;
+}
+.search-box{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    display:inline-block;
+}
+.search-box input, .search-box select{
+    padding:10px;
+    margin:5px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+.search-box button{
+    padding:10px 20px;
+    background:#2563eb;
+    border:none;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+.section{
+    padding:50px 20px;
+    text-align:center;
+}
+.section h3{
+    margin-bottom:30px;
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+.card{
+    background:white;
+    width:280px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    overflow:hidden;
+}
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+.card-content{
+    padding:15px;
+    text-align:left;
+}
+.card-content h4{
+    margin:0 0 10px;
+}
+.card-content p{
+    margin:5px 0;
+    font-size:14px;
+}
+.card-content button{
+    margin-top:10px;
+    width:100%;
+    padding:8px;
+    border:none;
+    background:#16a34a;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Lucknow Plot Finder</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Properties</a>
+<a href="#">Dealers</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Find Verified Plots in Lucknow</h2>
+<p>लखनऊ में अपने बजट और पसंद के अनुसार प्लॉट खोजें</p>
+<div class="search-box">
+<select>
+<option>Select Area</option>
+<option>Gomti Nagar</option>
+<option>Shaheed Path</option>
+<option>Sultanpur Road</option>
+<option>Indira Nagar</option>
+</select>
+<input type="number" placeholder="Budget (₹)">
+<input type="number" placeholder="Plot Size (sqft)">
+<button>Search</button>
+</div>
+</section>
+
+<section class="section">
+<h3>Featured Properties | प्रमुख प्रॉपर्टी</h3>
+<div class="cards">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+<div class="card-content">
+<h4>Gomti Nagar Plot</h4>
+<p>Size: 1500 sqft</p>
+<p>Price: ₹38 Lakh</p>
+<p>Dealer: Sharma Properties</p>
+<button>View Details</button>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716">
+<div class="card-content">
+<h4>Shaheed Path Plot</h4>
+<p>Size: 1200 sqft</p>
+<p>Price: ₹28 Lakh</p>
+<p>Dealer: Lucknow Estate</p>
+<button>View Details</button>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c">
+<div class="card-content">
+<h4>Sultanpur Road Plot</h4>
+<p>Size: 2000 sqft</p>
+<p>Price: ₹45 Lakh</p>
+<p>Dealer: Royal Lands</p>
+<button>View Details</button>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 Lucknow Plot Finder | All Rights Reserved
+</footer>
+
+</body>
+</html>
+
